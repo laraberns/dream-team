@@ -4,7 +4,7 @@
 - Objetivo: aprimorar conceitos de React.
 - Site para criar o time dos sonhos. Adicione cada jogador que deseja no seu time com uma foto!
 
-<p style="text-align: center">
+<p align="center">
 <img src="./public/football-club-logo-football-club-emblem-design-template-dark-background_630259-306.avif" width=70>
 </p>
 
