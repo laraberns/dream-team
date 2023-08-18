@@ -1,0 +1,14 @@
+.botao {
+    background-color: #02131B;
+    border-radius: 10px;
+    font-family: 'Graduate', cursive;
+    font-size: 16px;
+    padding: 32px;
+    border: none;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.botao:hover {
+    background-color: #2E3945
+}

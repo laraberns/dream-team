@@ -1,0 +1,22 @@
+.footer {
+    background-color: #02131B;
+    text-align: center;
+    position: sticky;
+    height: 105px;
+    top: calc( 100vh - 100px );
+}
+
+.footer img {
+    width: 100px;
+}
+
+
+@media only screen and (max-width: 1023px) {
+    .footer img {
+        width: 70px;
+    }
+
+    .footer {
+        height: 70px
+    }
+}

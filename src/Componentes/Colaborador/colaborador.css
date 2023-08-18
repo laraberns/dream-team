@@ -1,0 +1,66 @@
+.colaborador {
+    width: 280px;
+    margin: 10px 20px;
+}
+
+.colaborador .cabecalho {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.colaborador img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -50px;
+}
+
+.colaborador .rodape-colaborador {
+    background: #E7CB52;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: 120px;
+}
+
+.colaborador .rodape-colaborador h4 {
+    color: #513516;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.colaborador .rodape-colaborador h5 {
+    font-size: 18px;
+    color: #02131B;
+    padding: 0 16px;
+}
+
+@media only screen and (max-width: 1023px) {
+    .colaborador {
+        width: 160px;
+        margin: 5px 10px;
+    }
+    
+    .colaborador img {
+        width: 60px;
+        height: 60px;
+        bottom: -30px;
+    }
+    
+    .colaborador .rodape-colaborador {
+        padding-top: 30px;
+        padding-bottom: 25px;
+        height: 80px;
+    }
+    
+    .colaborador .rodape-colaborador h4 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    
+    .colaborador .rodape-colaborador h5 {
+        font-size: 16px;
+    }
+}

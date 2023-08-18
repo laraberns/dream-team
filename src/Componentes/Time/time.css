@@ -1,0 +1,33 @@
+.time{
+    text-align: center;
+    padding: 32px;
+    width: 70%;
+   margin: 30px auto;
+   border-radius: 20px;
+}
+
+.time h3{
+    font-size: 24px;
+    border-bottom: 4px solid;
+    display: inline-block;
+    padding-bottom: 2px;
+    color: #02131B;
+}
+
+.colaboradores{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1023px){
+    .time{
+       margin: 20px auto;
+    }
+    
+    .time h3{
+        font-size: 20px;
+    }
+}
+
