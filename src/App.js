@@ -10,22 +10,22 @@ function App() {
   const times = [
     {
       nome: "Goalkeeper",
-      corPrimaria: "#A1A3A2",
+      corPrimaria: "#393939",
       corSecundaria: "#DDDDDD"
     },
     {
       nome: "Defender",
-      corPrimaria: "#82CFFA",
+      corPrimaria: "#1414CB",
       corSecundaria: "#E8F8FF"
     },
     {
       nome: "Midfielder",
-      corPrimaria: "#A6D157",
+      corPrimaria: "#17652E",
       corSecundaria: "#F0F8E2"
     },
     {
       nome: "Forward",
-      corPrimaria: "#E06B69",
+      corPrimaria: "#8E0C17",
       corSecundaria: "#FDE7E8"
     },
     {
