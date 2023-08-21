@@ -40,4 +40,9 @@
         padding: 16px;
     }
 
+    ::placeholder{
+        font-size: 10px;
+    }
+
+
 }

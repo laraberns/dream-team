@@ -6,7 +6,7 @@
 }
 
 .formulario form {
-    width: 70%;
+    width: 50%;
     background-color:  white;
     border-radius: 20px;
     padding: 36px 64px;
@@ -20,5 +20,9 @@
 
     .formulario{
         margin: 40px 0;
+    }
+
+    .formulario form {
+        width: 70%;
     }
 }
