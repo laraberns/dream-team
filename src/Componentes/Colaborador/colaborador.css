@@ -1,32 +1,43 @@
 .colaborador {
     width: 280px;
     margin: 10px 20px;
+    position: relative;
 }
 
 .colaborador .cabecalho {
     border-radius: 10px 10px 0px 0px;
+    width: 280px;
+    height: 100px;
 }
 
-.colaborador img {
-    width: 100px;
+.image-container {
     height: 100px;
-    border-radius: 50%;
-    position: relative;
-    bottom: -50px;
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    left: 90px;
 }
+
+.image {
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
 
 .colaborador .rodape-colaborador {
     background: #E7CB52;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
     border-radius: 0px 0px 10px 10px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    height: 120px;
+    padding: 60px 15px;
+    height: 80px;
 }
 
 .colaborador .rodape-colaborador h4 {
     color: #513516;
-    font-size: 32px;
+    font-size: 26px;
     font-weight: bold;
     margin-bottom: 8px;
 }
@@ -37,30 +48,50 @@
     padding: 0 16px;
 }
 
+.deletar {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    background-color: red;
+    border-radius: 50%;
+
+}
+
+.favoritar {
+    margin-top: 5px;
+}
+
 @media only screen and (max-width: 1023px) {
     .colaborador {
         width: 160px;
         margin: 5px 10px;
     }
-    
-    .colaborador img {
-        width: 60px;
-        height: 60px;
-        bottom: -30px;
-    }
-    
+
     .colaborador .rodape-colaborador {
-        padding-top: 30px;
-        padding-bottom: 25px;
+        padding:40px 0 30px;
         height: 80px;
     }
-    
+
     .colaborador .rodape-colaborador h4 {
-        font-size: 24px;
+        font-size: 20px;
         margin-bottom: 5px;
     }
-    
+
     .colaborador .rodape-colaborador h5 {
         font-size: 16px;
     }
+
+    .colaborador .cabecalho {
+        width: 160px;
+        height: 80px;
+    }
+
+    .image-container {
+        position: absolute;
+        top: 42px;
+        left: 45px;
+        height: 70px;
+        width: 70px;
+    }
+    
 }

@@ -1,13 +1,13 @@
 .time{
     text-align: center;
     padding: 32px;
-    width: 50%;
+    width: 54%;
    margin: 30px auto;
    border-radius: 20px;
 }
 
 .time h3{
-    font-size: 24px;
+    font-size: 28px;
     border-bottom: 4px solid;
     display: inline-block;
     padding-bottom: 2px;
