@@ -8,10 +8,6 @@
 <img src="./public/football-club-logo-football-club-emblem-design-template-dark-background_630259-306.avif" width=70>
 </p>
 
-### Segue exemplo:
-<img src="./public/Captura de tela 2023-08-18 005019.png">
-<img src="./public/Captura de tela 2023-08-18 005037.png">
-
 
 ## Autora do projeto:
 
